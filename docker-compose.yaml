@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web_bot:
+    build: .
+    volumes:
+      - /your/path/app:/app
+    ports:
+     - "80:5000"
